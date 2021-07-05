@@ -8,6 +8,7 @@ void main() {
   var IMC = peso / (altura * 2);
   print('IMC: $IMC');
 
+//
   if (IMC < 16) {
     var resultIMC = 'Magreza Grave';
     print(resultIMC);
