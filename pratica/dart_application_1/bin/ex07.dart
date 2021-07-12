@@ -34,6 +34,7 @@ void main() {
     var resultIMC = 'Obesidade - Grau III (Móbida)';
     print(resultIMC);
   } else {
+    // ignore: unused_local_variable
     var resultIMC = 'Valor inválido';
   }
 }

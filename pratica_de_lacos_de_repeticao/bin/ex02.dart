@@ -2,12 +2,12 @@
 //todos os números e retorne o maior deles.
 
 void main() {
-  int maior = 0;
+  var maior = 0;
 
-  for (int i = 0; i <= 10; i++) {
+  for (var i = 0; i <= 10; i++) {
     print(i);
 
     maior = i;
   }
-  print("o maior valor é: " + maior.toString());
+  print('o maior valor é: ' + maior.toString());
 }

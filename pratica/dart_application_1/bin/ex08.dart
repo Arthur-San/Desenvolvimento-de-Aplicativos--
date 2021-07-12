@@ -11,6 +11,7 @@ void main() {
   var saldo = 1500;
 
   if (saque > saldo) {
+    // ignore: unused_local_variable
     var status = 'Saldo indisponível';
   } else {
     var status = 'Saque efetuado com sucesso!\n';
