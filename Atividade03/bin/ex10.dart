@@ -4,11 +4,12 @@
 // de 501 a 1000) e 21 pontos (acima de 1000 reais)
 
 void main() {
-  int total = 0;
-  int sete = 0;
-  int catorze = 0;
-  int vinte1 = 0;
+  var total = 0;
+  var sete = 0;
+  var catorze = 0;
+  var vinte1 = 0;
 
+  // ignore: omit_local_variable_types
   const List multa = [7, 14, 21, 21, 5, 12];
 
   for (int num in multa) {
@@ -17,12 +18,13 @@ void main() {
       sete++;
     } else if (num <= 14) {
       catorze++;
-    } else
+    } else {
       vinte1++;
+    }
   }
 
-  print("O total de multas é $total");
-  print("Número de multas de até RS500,00 é $sete");
-  print("Número de multas de RS501,00 a RS1000,00 é $catorze");
-  print("Número de multas acima de RS1001,00 é $vinte1");
+  print('O total de multas é $total');
+  print('Número de multas de até RS500,00 é $sete');
+  print('Número de multas de RS501,00 a RS1000,00 é $catorze');
+  print('Número de multas acima de RS1001,00 é $vinte1');
 }

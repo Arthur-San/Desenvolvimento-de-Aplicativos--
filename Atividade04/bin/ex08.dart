@@ -23,12 +23,12 @@ void operacoes(var num1, var num2) {
   var e = d / 2;
   var f = num1.abs();
 
-  print("Soma dos números: " + a.toString());
+  print('Soma dos números: ' + a.toString());
   print(
-      "O produto do primeiro número pelo quadrado do segundo: " + b.toString());
-  print("O quadrado do primeiro número: " + c.toString());
-  print("O triplo do dobro da soma dos dois números: " + d.toString());
+      'O produto do primeiro número pelo quadrado do segundo: ' + b.toString());
+  print('O quadrado do primeiro número: ' + c.toString());
+  print('O triplo do dobro da soma dos dois números: ' + d.toString());
   print(
-      "A metade do triplo do dobro da soma dos dois números: " + e.toString());
-  print("O módulo do primeiro número: " + f.toString());
+      'A metade do triplo do dobro da soma dos dois números: ' + e.toString());
+  print('O módulo do primeiro número: ' + f.toString());
 }

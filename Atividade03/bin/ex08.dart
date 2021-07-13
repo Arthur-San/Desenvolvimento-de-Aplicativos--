@@ -3,8 +3,8 @@
 // X 1 = 120
 //
 void main() {
-  int n = 5;
-  int resultado = 1;
+  var n = 5;
+  var resultado = 1;
 
   while (n > 0) {
     resultado = resultado * n;
